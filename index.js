@@ -23,12 +23,12 @@ mixedCase.toLowerCase() === mixedCase
 mixedCase.toUpperCase() === mixedCase
 
 function sayHiToGrandma(string) {
-  if (`${string} === string.toLowerCase()`)
+  if (string === string.toLowerCase())
   { return "I can't hear you!" }
 
-  elseif (`${string} === string.toUpperCase()`)
+  elseif (string === string.toUpperCase())
   { return "YES INDEED!" }
 
-  elseif (`${string} === 'I love you, Grandma.'`)
+  elseif (string === 'I love you, Grandma.')
   { return "I love you, too." }
 }

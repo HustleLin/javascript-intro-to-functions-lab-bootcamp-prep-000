@@ -23,7 +23,7 @@ mixedCase.toLowerCase() === mixedCase
 mixedCase.toUpperCase() === mixedCase
 
 function sayHiToGrandma(string) {
-  if (`${string} === lowercase`)
+  if (`${string} === string.toLowerCase()`)
   { return "I can't hear you!" }
 
   elseif (`${string} === uppercase`)
